@@ -1,0 +1,69 @@
+.top-heading{
+    width: 100%;
+}
+
+
+nav>ul{
+    display:block;
+    color: aqua;
+
+
+}
+
+li{
+    color: rgb(255, 123, 0);
+    display: block;
+    
+}
+.heading{
+    background-color: aqua;
+    display: flex;
+
+}
+.heading>div{
+    width: 50%;
+    height: 50%;
+   
+}
+.heading-left{
+  margin:0 ;
+}
+.body-box{
+    margin-top: 50px;
+    display: flex;
+   flex-wrap: wrap;
+   background-color: blue;
+
+
+   
+}
+.box{
+    border: 2px solid yellow;
+    width: 100px;
+    padding:50px;
+    margin: 80px ;
+   
+   
+}
+.image-div{
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px ;
+}
+.image-side{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    width: auto;
+    padding:15px;
+    width: 100%;
+    height: 400px;
+}
+.image-side img{
+   
+    height:auto;
+    max-width:100%;
+    border:5px solid yellow;
+
+    
+}
